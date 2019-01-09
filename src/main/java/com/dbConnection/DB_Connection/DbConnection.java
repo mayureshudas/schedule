@@ -22,8 +22,8 @@ public class DbConnection {
 	      String sql = "select build_id,qa_schedule_time from tbl_build where promote_to_qa=1";
 	     ResultSet rst= stmt.executeQuery(sql);
 	      while(rst.next()) {
-	    	System.out.println(rst.getString(0));
 	    	System.out.println(rst.getString(1));
+	    	System.out.println(rst.getString(0));
 	    	
 	      }
 	      stmt.close();
