@@ -27,7 +27,7 @@
       <goal>java</goal>  
      </goals>  
      <configuration>  
-      <mainClass>com.dbConnection.DB_Connection</mainClass>  
+      <mainClass>com.dbConnection.DB_Connection.DB_Connection</mainClass>  
       
      </configuration>  
     </execution>  
